@@ -28,7 +28,7 @@ public:
     }
 };
 
-// Specjalizacje ogólnego szablonu statku Imperium.
+// Specjalizacje ogólnego szablonu statku Imperium. XD
 template<typename U>
 using DeathStar = ImperialStarship<U>;
 
