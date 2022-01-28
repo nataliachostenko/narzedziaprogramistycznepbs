@@ -1,4 +1,4 @@
-//Plik Starwar_example
+//Plik Starwars_example
 #include "rebelfleet.h"
 #include "imperialfleet.h"
 #include "battle.h"
