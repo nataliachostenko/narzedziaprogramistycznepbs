@@ -30,6 +30,7 @@ public:
 };
 
 // Specjalizacje ogólnego szablonu statku Imperium. To jest celowy konflitk
+
 template<typename U>
 using DeathStar = ImperialStarship<U>;
 
