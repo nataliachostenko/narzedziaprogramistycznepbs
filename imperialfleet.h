@@ -8,7 +8,8 @@ class ImperialStarship {
 private:
     U shield, attackPower;
 
-    ImperialStarship() = {shield = 0;};
+    ImperialStarship() = default;
+
 
 public:
     typedef U valueType;
