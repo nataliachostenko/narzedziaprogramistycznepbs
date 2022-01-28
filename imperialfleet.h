@@ -70,7 +70,7 @@ template<typename I, typename R>
 void attack(I &imperialShip, R &rebelShip) {
     (void) imperialShip;
     (void) rebelShip;
-}1234455
+}
 
 
 #endif //JNP1_4_IMPERIALFLEET_H
