@@ -1,0 +1,13 @@
+ void tick(T timeStep) {
+        // Sprawdza czy mamy zwyciezce.
+        if (countRebelFleet() == 0 && countImperialFleet() == 0) {
+            std::cout << "DRAW" << std::endl;
+        } else if (countRebelFleet() == 0) {
+            std::cout << "IMPERIUM WON" << std::endl;
+        } else if (countImperialFleet() == 0) {
+            std::cout << "REBELLION WON" << std::endl;
+        } else if (attackTime(actTime)) {
+                doAttack();
+        }
+        actTime = (actTime + timeStep) % endTime;
+    }
