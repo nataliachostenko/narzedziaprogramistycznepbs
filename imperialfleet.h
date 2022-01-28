@@ -29,7 +29,7 @@ public:
     }
 };
 
-// Specjalizacje ogólnego szablonu statku Imperium.
+// Specjalizacje ogólnego szablonu statku Imperium. To ma być celowa zmiana
 template<typename U>
 using DeathStar = ImperialStarship<U>;
 
