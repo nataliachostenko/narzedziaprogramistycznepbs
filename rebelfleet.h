@@ -41,7 +41,7 @@ public:
         }
     }
 };
-// Specjalizacje ogólnego szablonu statku Rebelii.
+// Specjalizacje ogólnego szablonu statku Rebelii. Lol
 template<typename U>
 using Explorer = RebelStarship<U, false, 299796, 2997960>;
 
