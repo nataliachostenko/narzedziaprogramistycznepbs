@@ -123,5 +123,5 @@ public:
         actTime = (actTime + timeStep) % endTime;
     }
 };
-//to moj kolejny commit
+
 #endif //JNP1_4_BATTLE_H
