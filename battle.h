@@ -122,6 +122,4 @@ public:
         }
         actTime = (actTime + timeStep) % endTime;
     }
-};
-
 #endif //JNP1_4_BATTLE_H
